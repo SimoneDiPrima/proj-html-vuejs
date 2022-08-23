@@ -67,6 +67,14 @@
     </div>
 
   </section>
+  <section id="PicMenu">
+     <div class="d-flex position-relative justify-content-center my-5">
+        <figure class="col-9">
+          <img src="../assets/avadaImages/featured_article_1_bg.jpg" alt="">
+        </figure>
+    </div>
+
+  </section>
 </div>
 
 </template>
@@ -112,4 +120,8 @@ width:100%;}
 }
   hr{width:20%;text-align: center;}
   .w-80{max-width:60%;}
+  .imgClose{max-width:100%;text-align:center;}
+  .pippo{
+    border:1px solid black;
+  }
 </style>
