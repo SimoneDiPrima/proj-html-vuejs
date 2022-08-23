@@ -1,25 +1,6 @@
 <template>
 <div>
-  <div class="lightblue">
-    <header class="container">
-    <nav class="d-flex justify-content-between align-items-center text-white p-2">
-      <img src="./assets/avadaImages/logo.png" alt="">
-      <ul class="d-flex align-items-center">
-        <li class="me-2">Home</li>
-        <li class="me-2">Apple</li>
-        <li class="me-2">Microsoft</li>
-        <li class="me-2">Android</li>
-        <li class="me-2">Forums</li>
-        <li class="me-2">Contacts us</li>
-        <li>
-          <button class="bg-dark text-white p-2">join us</button>
-        </li>
-      </ul>
-    </nav>
-   
-  </header>
-
-  </div>
+  <BaseHeader />
  
   <section class="bigImage">
     <img class="mw-100 position-relative" src="./assets/avadaImages/home_slider_bg.jpg" alt="">
@@ -36,9 +17,62 @@
   <section class="marginNegative text-center mt-5 bg-light">
     <h6>PHASELLUS EGET METUS</h6>
     <h4 class="offset-3 col-6 fw-bolder">All the latest news</h4>
-    <div class="text-warning">
-  <hr class="offset-5 col-2">
-</div>
+    <div class="text-warning mb-4">
+      <hr class="offset-5 col-2">
+    </div>
+  </section>
+  <section id="card">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <figure class="col-3">
+           <img src="./assets/avadaImages/post_feat_img_24-320x202.jpg" alt="">
+           <h5>Morbi vitae dui euismud voluptate sollicitudin</h5>
+           <p>Lorem ipsum dolor uam sequi quia, totam ipsum vero blanditiis accusantium sunt eligendi fugit. Quam inventore ab accusantium aliquid facilis temporibus!</p>
+        </figure>
+         <figure class="col-3">
+           <img src="./assets/avadaImages/post_feat_img_25-320x202.jpg" alt="">
+           <h5>Morbi vitae dui euismud voluptate sollicitudin</h5>
+           <p>Lorem ipsum dolor uam sequi quia, totam ipsum vero blanditiis accusantium sunt eligendi fugit. Quam inventore ab accusantium aliquid facilis temporibus!</p>
+        </figure>
+         <figure class="col-3">
+           <img src="./assets/avadaImages/post_feat_img_23-320x202.jpg" alt="">
+           <h5>Morbi vitae dui euismud voluptate sollicitudin</h5>
+           <p>Lorem ipsum dolor uam sequi quia, totam ipsum vero blanditiis accusantium sunt eligendi fugit. Quam inventore ab accusantium aliquid facilis temporibus!</p>
+        </figure>
+      </div>
+      <div class="d-flex position-relative justify-content-center my-3">
+        <figure class="col-9">
+          <img src="./assets/avadaImages/featured_article_1_bg.jpg" alt="">
+        </figure>
+         <div class="container overText w-80">
+          <h6>Featured Article</h6>
+          <h4>Cras malesuada et orci eget pharetra</h4>
+          <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit.Vero aperiam tempore deserunt error!lorem ipsum ahahdkcmelx</p>
+          <button>Read More ></button>
+        </div>
+      </div>
+      
+       <div class="row d-flex justify-content-center">
+        <figure class="col-3">
+           <img src="./assets/avadaImages/post_feat_img_22-320x202.jpg" alt="">
+           <h5>Morbi vitae dui euismud voluptate sollicitudin</h5>
+           <p>Lorem ipsum dolor uam sequi quia, totam ipsum vero blanditiis accusantium sunt eligendi fugit. Quam inventore ab accusantium aliquid facilis temporibus!</p>
+        </figure>
+         <figure class="col-3">
+           <img src="./assets/avadaImages/post_feat_img_21-320x202.jpg" alt="">
+           <h5>Morbi vitae dui euismud voluptate sollicitudin</h5>
+           <p>Lorem ipsum dolor uam sequi quia, totam ipsum vero blanditiis accusantium sunt eligendi fugit. Quam inventore ab accusantium aliquid facilis temporibus!</p>
+        </figure>
+         <figure class="col-3">
+           <img src="./assets/avadaImages/post_feat_img_20-320x202.jpg" alt="">
+           <h5>Morbi vitae dui euismud voluptate sollicitudin</h5>
+           <p>Lorem ipsum dolor uam sequi quia,lorem totam ipsum vero blanditiis accusantium sunt eligendi fugit. 
+            Quam inventore ab accusantium aliquid facilis temporibus!</p>
+        </figure>
+      </div>
+      
+    </div>
+
   </section>
   
 </div>
@@ -46,20 +80,18 @@
 </template>
 
 <script>
-
+import BaseHeader from './components/BaseHeader.vue';
 export default {
   name: 'App',
   components: {
-    
+    BaseHeader
   }
 }
 </script>
 
 <style lang="scss">
 @import './assets/scss/style.scss';
-li{
-  list-style-type:none;
-}
+
 .mw-100{
   width:100%;
   max-height:700px;
@@ -75,9 +107,6 @@ li{
 .bigImage{
   background-color:white;
 }
-.lightblue{
-  background-color: #27aabe;
-}
 button{
   border:none;
 }
@@ -85,9 +114,16 @@ button{
   width:50%;
   
 }
-img{display:inline-block}
+.overText{
+  position:absolute;
+  top:20%;
+  left:15%;
+}
+figure img{display:inline-block;
+width:100%;}
 .marginNegative{
   margin-top:-10px;
 }
   hr{width:20%;text-align: center;}
+  .w-80{max-width:60%;}
 </style>
