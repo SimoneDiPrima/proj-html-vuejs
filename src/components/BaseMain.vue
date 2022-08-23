@@ -9,11 +9,11 @@
     </div>
   </section>
   <section class="marginNegative text-center mt-3 bg-light">
-    <h6>AVADA FORUM IS THE PLACE TO BE</h6>
+    <h6 class="letterSpace">AVADA FORUM IS THE PLACE TO BE</h6>
     <p class="offset-3 col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nulla sunt unde eum excepturi odio perspiciatis ore sed sit, ipsum a nesciunt? Deserunt.Soluta nulla sunt unde eum excepturi odio perspiciatis ore sed sit, ipsum a nesciunt?</p>
   </section>
   <section class="marginNegative text-center mt-5 bg-light">
-    <h6>PHASELLUS EGET METUS</h6>
+    <h6 class="letterSpace">PHASELLUS EGET METUS</h6>
     <h4 class="offset-3 col-6 fw-bolder">All the latest news</h4>
     <div class="text-warning mb-4">
       <hr class="offset-5 col-2">
@@ -123,5 +123,8 @@ width:100%;}
   .imgClose{max-width:100%;text-align:center;}
   .pippo{
     border:1px solid black;
+  }
+  .letterSpace{
+    letter-spacing:4px;
   }
 </style>
