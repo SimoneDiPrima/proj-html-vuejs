@@ -2,6 +2,7 @@
 <div>
   <BaseHeader />
   <BaseMain />
+  <BlogSection /> 
  
 </div>
  
@@ -10,10 +11,11 @@
 <script>
 import BaseHeader from './components/BaseHeader.vue';
 import BaseMain from './components/BaseMain.vue';
+import BlogSection from './components/BlogSection.vue';
 export default {
   name: 'App',
   components: {
-    BaseHeader,BaseMain
+    BaseHeader,BaseMain,BlogSection,
   }
 }
 </script>
