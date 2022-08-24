@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-        <h6 class="mare text-center">PHASELLUS EGET METUS</h6>
-        <h1 class="text-center">FORUM SECTION</h1>
+        <h6 class="letterSpace mt-5 text-center">PHASELLUS EGET METUS</h6>
+        <h1 class="text-center mb-5">FORUM SECTION</h1>
        
        
          <div class="my-3">
@@ -56,7 +56,7 @@ export default{
 </script>
 <style lang="scss">
 @import '../assets/scss/style.scss';
-.mare{
+.letterSpace{
     letter-spacing: 4px;
 }
 .forumBlock{

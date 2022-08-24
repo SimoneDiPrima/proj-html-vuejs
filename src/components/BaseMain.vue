@@ -8,11 +8,11 @@
       <button class="lightblue fs-5 text-white p-2">GET AVADA NOW! ></button>
     </div>
   </section>
-  <section class="marginNegative text-center mt-3 bg-light">
+  <section class="text-center mt-5 bg-light">
     <h6 class="letterSpace">AVADA FORUM IS THE PLACE TO BE</h6>
     <p class="offset-3 col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nulla sunt unde eum excepturi odio perspiciatis ore sed sit, ipsum a nesciunt? Deserunt.Soluta nulla sunt unde eum excepturi odio perspiciatis ore sed sit, ipsum a nesciunt?</p>
   </section>
-  <section class="marginNegative text-center mt-5 bg-light">
+  <section class="text-center mt-5 bg-light">
     <h6 class="letterSpace">PHASELLUS EGET METUS</h6>
     <h4 class="offset-3 col-6 fw-bolder">All the latest news</h4>
     <div class="text-warning mb-4">
@@ -38,10 +38,19 @@
            <p>Lorem ipsum dolor uam sequi quia, totam ipsum vero blanditiis accusantium sunt eligendi fugit. Quam inventore ab accusantium aliquid facilis temporibus!</p>
         </figure>
       </div>
-      <div class="d-flex position-relative justify-content-center my-3">
-        <figure class="col-9">
-          <img src="../assets/avadaImages/featured_article_1_bg.jpg" alt="">
+      <div class="d-flex  justify-content-center my-3">
+        <figure class="col-9 position-relative">
+            <img src="../assets/avadaImages/featured_article_1_bg.jpg" alt="">
+            <div class="container marginNegative position-absolute top-50 start-0 text-white">
+                <h5 class="letterSpace mb-2">FEATURED ARTICLE</h5>
+                <h2 class="mb-2 fw-bold fs-2">Cras malesuada et orci eget pharetra</h2>
+                <p class=" mb-2">in quis lecto sed leo elementum faucibus in dapibus dictum.Nullamolestie tortor nec lectus venenatis, sed blandi duit,dolor at bibendum
+                sadips ets ipsums dolores ficilis uns leo lectus
+                </p>
+                <button class="bg-dark text-white p-2 fw-bold">READ MORE > </button>
+            </div>
         </figure>
+        
         
       </div>
       
@@ -70,8 +79,15 @@
   <section id="PicMenu">
      <div class="container my-5 d-flex justify-content-center">
         <div class="col-9 d-flex">
-            <figure class="col-7">
+            <figure class="col-7 position-relative">
                  <img src="../assets/avadaImages/featured_article_2_bg.jpg" alt="">
+                  <div class="container position-absolute top-0 start-0 mt-5 text-white">
+                <h6 class="letterSpace mt-3 mb-2">REVIEWED PRODUCT</h6>
+                <h4 class="mb-2 fw-bold fs-3">Mauris viverra atisan ipsum eget felis prims efficitur varius</h4>
+                <p class="smallTiltle mb-2">In quis lectus sed leo elementum faucibus in dapibus dictum.
+                    Nullamolestie tortor nec lectus venenatis, sed blandi duit,dolor at bibendum</p>
+                     <button class="bg-dark text-white p-2 fw-bold">READ MORE > </button>
+                </div>
             </figure>
             <div class="ps-3 d-flex flex-column ">
                 <div>
@@ -122,10 +138,6 @@ export default{
   max-width:100%;
   max-height:700px;
 }
-.upside{
-  position:absolute;
-  
-}
 .titleBig{
   font-size:150px;
   text-align:left;
@@ -150,10 +162,13 @@ img{
    max-width:100%;
 }
 .marginNegative{
-  margin-top:-10px;
+  margin-top:-50px;
 }
   hr{width:20%;text-align: center;color:orangered}
   .w-60{max-width:60%;}
+  .w-90{
+    width:90%;
+  }
   .imgClose{max-width:100%;text-align:center;}
   .pippo{
     border:1px solid black;
@@ -164,4 +179,6 @@ img{
   .calendar{
     font-size:12px;
   }
+  .smallTiltle{font-size:12px;}
+  
 </style>
