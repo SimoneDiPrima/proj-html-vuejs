@@ -78,8 +78,7 @@ export default{
     letter-spacing: 4px;
 }
 .forumBlock{
-    background-color: #aeaeae;
-
+    background-color: #eee3d6;
 }
 .IconSpecial{
     height:50px;

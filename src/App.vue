@@ -6,6 +6,7 @@
   <ForumIconSection />
   <ForumSection/>
   <LastJumbotron />
+  <NewsletterSection />
  
 </div>
  
@@ -18,10 +19,11 @@ import BlogSection from './components/BlogSection.vue';
 import ForumSection from './components/ForumSection.vue'
 import ForumIconSection from './components/ForumIconSection.vue'
 import LastJumbotron from './components/LastJumbotron.vue';
+import NewsletterSection from './components/NewsletterSection.vue';
 export default {
   name: 'App',
   components: {
-    BaseHeader,BaseMain,BlogSection,ForumSection,ForumIconSection,LastJumbotron
+    BaseHeader,BaseMain,BlogSection,ForumSection,ForumIconSection,LastJumbotron,NewsletterSection
   }
 }
 </script>
