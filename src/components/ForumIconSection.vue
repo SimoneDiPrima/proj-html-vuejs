@@ -23,7 +23,7 @@
                 <h6>Android Forum</h6>
             </figure>
              <figure class="col-3 text-center">
-              <i class="fa-solid fa-mug-saucer mb-2 IconSpecial"></i>
+              <i class="fa-solid fa-mug-saucer IconSpecial"></i>
                 <h6>General Discussion</h6>
             </figure>
              <figure class="col-3 text-center">
