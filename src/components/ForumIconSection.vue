@@ -1,51 +1,69 @@
 <template>
-    <div class="container">
-        <h6 class="letterSpace mt-5 text-center">PHASELLUS EGET METUS</h6>
-        <h1 class="text-center mb-5">FORUM SECTION</h1>
-       
-       
-         <div class="my-3">
-        <div class="offset-1 col-9 d-flex flex-wrap my-5 ">
-            <figure class="ps-1 col-3 text-center">
-                <i class="fa-brands fa-apple mb-2 IconSpecial"></i>
-                <h6>News e community</h6>
-            </figure>
-             <figure class="col-3 text-center">
-                <i class="fa-brands fa-apple mb-2 IconSpecial"></i>
-                <h6>Apple Forum</h6>
-            </figure>
-             <figure class="col-3 text-center">
-               <i class="fa-brands fa-windows mb-2 IconSpecial"></i>
-                <h6>Microsoft Forum</h6>
-            </figure>
-             <figure class="col-3 text-center">
-              <i class="fa-brands fa-android mb-2 IconSpecial"></i>
-                <h6>Android Forum</h6>
-            </figure>
-             <figure class="col-3 text-center">
-              <i class="fa-solid fa-mug-saucer IconSpecial"></i>
-                <h6>General Discussion</h6>
-            </figure>
-             <figure class="col-3 text-center">
-                <i class="fa-brands fa-apple mb-2 IconSpecial"></i>
-                <h6>App e Software</h6>
-            </figure>
-             <figure class="col-3 text-center">
-                <i class="fa-brands fa-apple mb-2 IconSpecial"></i>
-                <h6>Gadgets & Stuff</h6>
-            </figure>
-             <figure class="col-3 text-center">
-                <i class="fa-brands fa-apple mb-2 IconSpecial"></i>
-                <h6>Tutorials & Guides</h6>
-            </figure>
-
-          
+    <div class="forumBlock">
+        <div class="container">
+            <h6 class="letterSpace pt-5 text-center">PHASELLUS EGET METUS</h6>
+            <h1 class="text-center pb-5">FORUM SECTION</h1>
+        
+        
+            <div class=" d-flex justify-content-center">
+                <div class="col-2 p-2">
+                    <figure class="border-top border-primary bg-light fb-25 text-center p-5">
+                    <i class="fa-solid fa-file mb-1 IconSpecial"></i>
+                        <h6>News e community</h6>
+                    </figure>
+                </div>
+                <div  class="col-2 p-2">
+                    <figure class="border-top border-primary bg-light fb-25 text-center p-5">
+                        <i class="fa-brands fa-apple mb-1 IconSpecial"></i>
+                        <h6>Apple Forum</h6>
+                    </figure>
+                </div>
+                <div  class="col-2 p-2">
+                    <figure class="border-top border-primary bg-light fb-25 text-center p-5">
+                        <i class="fa-brands fa-microsoft mb-1 IconSpecial"></i>
+                        <h6>Microsoft Forum</h6>
+                    </figure>
+                </div>
+                <div  class="col-2 p-2">
+                    <figure class="border-top border-primary bg-light fb-25 text-center p-5">
+                        <i class="fa-brands fa-android mb-1 IconSpecial"></i>
+                        <h6>Android Forum</h6>
+                    </figure>
+                </div>
+            </div>
+            <div class=" d-flex justify-content-center pb-5">
+                <div class="col-2 p-2">
+                    <figure class="border-top border-primary bg-light fb-25 text-center p-5">
+                    <i class="fa-solid fa-mug-saucer mb-1 IconSpecial"></i>
+                        <h6>General DIscussion</h6>
+                    </figure>
+                </div>
+                <div  class="col-2 p-2">
+                    <figure class="border-top border-primary bg-light fb-25 text-center p-5">
+                        <i class="fa-brands fa-apple mb-1 IconSpecial"></i>
+                        <h6>Apple Forum</h6>
+                    </figure>
+                </div>
+                <div  class="col-2 p-2">
+                    <figure class="border-top border-primary bg-light fb-25 text-center p-5">
+                        <i class="fa-solid fa-laptop IconSpecial"></i>
+                        <h6>Gadgets & Stuff</h6>
+                    </figure>
+                </div>
+                <div  class="col-2 p-2">
+                    <figure class="border-top border-primary bg-light fb-25 text-center p-5">
+                        <i class="fa-brands fa-android mb-1 IconSpecial"></i>
+                        <h6>Tutorials & Guides</h6>
+                    </figure>
+                </div>
+            </div>
+            
+            
         </div>
+                
         
-      </div>
-        
-       
     </div>
+    
 
 </template>
 <script>
@@ -60,8 +78,7 @@ export default{
     letter-spacing: 4px;
 }
 .forumBlock{
-    height:500px;
-    border:1px solid black;
+    background-color: #aeaeae;
 
 }
 .IconSpecial{
@@ -72,5 +89,8 @@ export default{
     background-color: orangered;
     color:white;
 }
-    
+.fb-25{
+    flex-basis: 25%;
+}
+  
 </style>
