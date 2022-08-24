@@ -24,6 +24,4 @@ export default{
     color:white;
     width:150px;
 }
-
-    
 </style>

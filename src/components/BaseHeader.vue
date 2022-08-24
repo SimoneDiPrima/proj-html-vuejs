@@ -4,7 +4,7 @@
     <nav class="d-flex justify-content-between align-items-center text-white p-2">
       <img src="../assets/avadaImages/logo.png" alt="">
       <ul class="d-flex align-items-center">
-        <li class="me-2">Home</li>
+        <li class="me-2">{{ listItemFirst }}</li>
         <li class="me-2">Apple</li>
         <li class="me-2">Microsoft</li>
         <li class="me-2">Android</li>
@@ -23,6 +23,9 @@
 <script>
 export default{
     name:'BaseHeader',
+    props:{
+        listItemFirst : String,
+    }
 
 }
 </script>

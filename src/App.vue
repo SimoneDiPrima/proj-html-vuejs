@@ -1,6 +1,6 @@
 <template>
 <div>
-  <BaseHeader />
+  <BaseHeader listItemFirst = "Home"/>
   <BaseMain />
   <BlogSection /> 
   <ForumIconSection />
