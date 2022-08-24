@@ -7,6 +7,7 @@
   <ForumSection/>
   <LastJumbotron />
   <NewsletterSection />
+  <BaseFooter />
  
 </div>
  
@@ -20,11 +21,19 @@ import ForumSection from './components/ForumSection.vue'
 import ForumIconSection from './components/ForumIconSection.vue'
 import LastJumbotron from './components/LastJumbotron.vue';
 import NewsletterSection from './components/NewsletterSection.vue';
+import BaseFooter from './components/BaseFooter.vue';
 export default {
   name: 'App',
   components: {
-    BaseHeader,BaseMain,BlogSection,ForumSection,ForumIconSection,LastJumbotron,NewsletterSection
-  }
+    BaseHeader,
+    BaseMain,
+    BlogSection,
+    ForumSection,
+    ForumIconSection,
+    LastJumbotron,
+    NewsletterSection,
+    BaseFooter
+}
 }
 </script>
 
