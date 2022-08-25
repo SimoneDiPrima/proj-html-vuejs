@@ -1,26 +1,21 @@
 <template>
   <div>
-    <div class="lightblue">
-     <div class="container d-flex justify-content-between align-items-center">
-        <div>
-          <img src="./assets/avadaImages/logo.png" alt="">
-        </div>
+    <div class="BackGray">
+      <div class="container d-flex justify-content-between align-items-center">
+        <BaseLogo />
         <div class="d-flex">
           <BaseHeader  v-for="(linkHeader,i) in headerItems" :key="i" :headerMenu ="linkHeader"   />
           <button class="buttonHeader ms-2 bg-dark text-white">JOIN US<i class="fa-solid fa-chevron-right"></i></button>
         </div>
       </div>
-
     </div>
-  
-  
     <BaseMain />
-    <BlogSection /> 
+    <DivisorBlackSection title="GO TO OUR BLOG " />
     <ForumIconSection />
-    <ForumSection />
+   <DivisorBlackSection title="GO TO OUR FORUM "/>
     <LastJumbotron />
-    <NewsletterSection />
-    <div class="d-flex offset-1 col-9 mt-5">
+    <NewsletterSection/>
+    <div class="container d-flex justify-content-around offset-1 col-9 my-5">
       <BaseMessageFooter/>
       <BaseFooter class="col-3" v-for="(link,i) in FooterListItems" :key="i" :footerList="link" />
     </div>
@@ -30,27 +25,27 @@
 </template>
 
 <script>
+import BaseLogo from './components/BaseLogo.vue';
 import BaseHeader from './components/BaseHeader.vue';
 import BaseMain from './components/BaseMain.vue';
-import BlogSection from './components/BlogSection.vue';
-import ForumSection from './components/ForumSection.vue'
 import ForumIconSection from './components/ForumIconSection.vue'
 import LastJumbotron from './components/LastJumbotron.vue';
 import NewsletterSection from './components/NewsletterSection.vue';
 import BaseFooter from './components/BaseFooter.vue';
 import BaseMessageFooter from './components/BaseMessageFooter.vue'
+import DivisorBlackSection from './components/DivisorBlackSection.vue';
 export default {
   name: 'App',
   components: {
+    BaseLogo,
     BaseHeader,
     BaseMain,
-    BlogSection,
-    ForumSection,
     ForumIconSection,
     LastJumbotron,
     NewsletterSection,
     BaseFooter,
-    BaseMessageFooter
+    BaseMessageFooter,
+    DivisorBlackSection,
 }, data(){
         return{ 
           headerItems : [
@@ -102,5 +97,7 @@ max-width:100%;
    margin-top:35px;
    text-align:center;
 }
-
+.BackGray{
+  background-color: #4A4A4A;
+}
 </style>

@@ -1,22 +1,17 @@
 <template>
-<div class="lightblue">
-    <header class="container text-white">
-    <nav>
-        <div class=" mt-3">
-            <ul class="lh-70">
-                <li>
-                    <a :href="headerMenu.url" class="d-flex" :class="{ current : headerMenu.current }">{{headerMenu.text}}</a>
-                </li>
-            </ul>
-            <!-- <button class="buttonHeader bg-dark text-white">JOIN US<i class="fa-solid fa-chevron-right"></i></button> -->
-        </div>
-      
-        
-    </nav>
-   
-  </header>
-
-  </div>
+    <div class="BackGray">
+        <header class="container text-white">
+            <nav>
+                <div class="mt-3">
+                    <ul class="lh-70">
+                        <li>
+                            <a :href="headerMenu.url" class="d-flex" :class="{ current : headerMenu.current }">{{headerMenu.text}}</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
 </template>
 <script>
 export default{
@@ -47,7 +42,7 @@ li a{
     color:white;
   }
 }
-.lightblue{
-  background-color: #27aabe;
+.BackGray{
+  background-color: #4A4A4A;
 }
 </style>
