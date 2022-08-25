@@ -1,13 +1,13 @@
 <template>
 <div>
-  <BaseHeader listItemFirst = "Home"/>
+  <BaseHeader/>
   <BaseMain />
   <BlogSection /> 
   <ForumIconSection />
   <ForumSection/>
   <LastJumbotron />
   <NewsletterSection />
-  <BaseFooter />
+ <BaseFooter />
  
 </div>
  

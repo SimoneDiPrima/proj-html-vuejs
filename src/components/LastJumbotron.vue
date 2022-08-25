@@ -1,4 +1,5 @@
 <template>
+<!-- ultima sezione jumbotron collegata alla newsletter -->
 <div id="lastJumbotron" class="py-4">
     <div class="offset-4 col-4 pt-5 text-white">
         <h1 class="text-center">Hey! join to our community!</h1>
@@ -6,10 +7,9 @@
             ipsums dolores ficilis uns etra
         </p>
         <button class="offset-4 col-4 bg-primary text-white">
-            SIGN UP >
+            SIGN UP <i class="fa-solid fa-chevron-right"></i>
         </button>
     </div>
-
 </div>
 
 

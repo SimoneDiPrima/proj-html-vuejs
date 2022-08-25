@@ -5,7 +5,7 @@
     <div class="container position-absolute top-50 start-50 translate-middle text-start text-white">
       <h1 class="h1 titleBig fw-bold">Tech Forum!</h1>
       <p>Discuss all the latest technology news and trends</p>
-      <button class="lightblue fs-5 text-white p-2">GET AVADA NOW! ></button>
+      <button class="lightblue fs-5 text-white p-2">GET AVADA NOW! <i class="fa-solid fa-chevron-right"></i></button>
     </div>
   </section>
   <section class="text-center mt-5 bg-light">
@@ -47,7 +47,7 @@
                 <p class=" mb-2">in quis lecto sed leo elementum faucibus in dapibus dictum.Nullamolestie tortor nec lectus venenatis, sed blandi duit,dolor at bibendum
                 sadips ets ipsums dolores ficilis uns leo lectus
                 </p>
-                <button class="bg-dark text-white p-2 fw-bold">READ MORE > </button>
+                <button class="bg-dark text-white p-2 fw-bold">READ MORE <i class="fa-solid fa-chevron-right"></i> </button>
             </div>
         </figure>
         
@@ -94,28 +94,33 @@
                   <h6 class="fw-bolder">Tutorials & Guides</h6>
                   <hr>
                 </div>
-                <div class="d-flex p-1">
+                <div>
+                    <a class="d-flex p-1" href="#">
+                        <img class="col-4"  src="../assets/avadaImages/post_feat_img_23-147x118.jpg" alt="">
+                        <div class="ms-4">
+                          <h6 class="fw-bolder">Donec ornare pretium eget scelisque justo</h6>
+                          <span class="text-secondary calendar">October 11th,2015 | Comment 0</span>
+                        </div>
+                    </a>
                     
-                    <img class="col-4"  src="../assets/avadaImages/post_feat_img_23-147x118.jpg" alt="">
-                    <div class="ms-3">
-                        <h6 class="fw-bolder ms-2">Donec ornare pretium eget scelisque justo</h6>
-                    <span class="text-secondary calendar">October 11th,2015 | Comment 0</span>
-                    </div>
                 </div>
-                <div class="d-flex p-1">
+                <div>
+                  <a class="d-flex p-1" href="#">
                     <img class="col-4" src="../assets/avadaImages/post_feat_img_22-147x118.jpg" alt="">
-                    <div class="ms-3">
+                    <div class="ms-4">
                          <h6 class="fw-bolder">Fusce solicitudin nunc sed placerat varius</h6>
                     <span class="text-secondary calendar">October 11th,2015 | Comment 0</span>
                     </div>
-                   
+                   </a>
                 </div>
-                <div class="d-flex p-1">
-                    <img class="col-4" src="../assets/avadaImages/post_feat_img_20-147x118.jpg" alt="">
-                    <div class="ms-3">
+                <div>
+                  <a class="d-flex p-1" href="#">
+                     <img class="col-4" src="../assets/avadaImages/post_feat_img_20-147x118.jpg" alt="">
+                    <div class="ms-4">
                          <h6 class="fw-bolder">Proin eu purus sed aru aliquet curabir vens</h6>
                         <p class="text-secondary calendar">October 11th,2015 | Comment 0</p>
                     </div>
+                  </a>
                 </div>
             </div>
           
@@ -180,5 +185,12 @@ img{
     font-size:12px;
   }
   .smallTiltle{font-size:12px;}
+  a{text-decoration:none;
+  color:black;
+  &:hover{
+    color:goldenrod;
+    background-color: lightgray;
+  }
+  }
   
 </style>
