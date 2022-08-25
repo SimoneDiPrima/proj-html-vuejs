@@ -21,6 +21,7 @@
     <LastJumbotron />
     <NewsletterSection />
     <div class="d-flex offset-1 col-9 mt-5">
+      <BaseMessageFooter/>
       <BaseFooter class="col-3" v-for="(link,i) in FooterListItems" :key="i" :footerList="link" />
     </div>
  
