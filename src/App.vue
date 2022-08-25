@@ -3,9 +3,10 @@
     <div class="BackGray">
       <div class="container d-flex justify-content-between align-items-center">
         <BaseLogo />
-        <div class="d-flex">
+        <div class="d-flex align-items-center">
           <BaseHeader  v-for="(linkHeader,i) in headerItems" :key="i" :headerMenu ="linkHeader"   />
           <button class="buttonHeader ms-2 bg-dark text-white">JOIN US<i class="fa-solid fa-chevron-right"></i></button>
+          <i class="text-white ms-2 fa-solid fa-magnifying-glass"></i>
         </div>
       </div>
     </div>
@@ -94,7 +95,6 @@ max-width:100%;
 .buttonHeader{
     width:100px;
    height:30px;
-   margin-top:35px;
    text-align:center;
 }
 .BackGray{
