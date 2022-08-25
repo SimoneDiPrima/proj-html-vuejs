@@ -1,17 +1,14 @@
 <template>
 <div class="lightblue">
     <header class="container text-white">
-    <nav class="d-flex justify-content-between align-items-center">
-        <div>
-            <img src="../assets/avadaImages/logo.png" alt="">
-        </div>
-        <div class="d-flex mt-3">
-            <ul class="d-flex lh-70">
-                <li class="me-2" v-for="(item,i) in headerItems" :key="i">
-                    <a :href="item.url" class="pippo" :class="{ current : item.current }">{{item.text}}</a>
+    <nav>
+        <div class=" mt-3">
+            <ul class="lh-70">
+                <li>
+                    <a :href="headerMenu.url" class="d-flex" :class="{ current : headerMenu.current }">{{headerMenu.text}}</a>
                 </li>
             </ul>
-            <button class="buttonHeader bg-dark text-white">JOIN US<i class="fa-solid fa-chevron-right"></i></button>
+            <!-- <button class="buttonHeader bg-dark text-white">JOIN US<i class="fa-solid fa-chevron-right"></i></button> -->
         </div>
       
         
@@ -25,17 +22,10 @@
 export default{
     name:'BaseHeader',
    
-    data(){
-        return{
-            headerItems : [
-            {text:'apple',url:'#',current:false},
-            {text:'microsoft',url:'#',current: false},
-            {text:'android',url:'#',current: false,},
-            {text:'forum',url:'#',current: false,},
-            {text:'contact us',url:'#',current: false,}
-            ]
-        }
-    },
+
+    props:{
+        headerMenu:Object
+    }
     
 
 }
@@ -45,13 +35,6 @@ export default{
 .lh-70{
     line-height:70px;
 }
-.buttonHeader{
-    width:100px;
-   height:50px;
-   margin-top:10px;
-   text-align:center;
-}
-
 li{
   list-style-type:none;
 }

@@ -1,7 +1,7 @@
 <template>
     <div class="Blog bg-dark text-center">
         <div class="container">
-           <h6 class="lh-100 fw-bold p-2 text-white">GO TO OUR FORUM <i class="fa-solid fa-arrow-right"></i></h6> 
+           <h6 class="lh-100 fw-bold p-2 text-white">{{title}}<i class="fa-solid fa-arrow-right"></i></h6> 
         </div>
     </div>
 
@@ -9,6 +9,14 @@
 <script>
 export default{
     name:'BlogSection',
+    data(){
+        return{
+            array:['GO TO OUR FORUM','GO TO OUR BLOG']
+        }
+    },
+    props:{
+        title:Array
+    }
 }
 
 </script>
