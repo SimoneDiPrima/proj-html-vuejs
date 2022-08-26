@@ -20,7 +20,7 @@
 export default{
     name:'BaseFooter',
      props:{
-        footerList:Array,
+        footerList:Object,
     },
 }
 

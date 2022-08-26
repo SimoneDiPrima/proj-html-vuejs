@@ -5,8 +5,8 @@
         <BaseLogo />
         <div class="d-flex align-items-center">
           <BaseHeader  v-for="(linkHeader,i) in headerItems" :key="i" :headerMenu ="linkHeader"   />
-          <button class="buttonHeader ms-2 bg-dark text-white">JOIN US<i class="fa-solid fa-chevron-right"></i></button>
-          <i class="text-white ms-2 fa-solid fa-magnifying-glass"></i>
+          <button class="buttonHeader ms-2 bg-dark text-white">JOIN US <i class="fa-solid fa-chevron-right"></i></button>
+          <a href="#"><i class="text-white ms-2 fa-solid fa-magnifying-glass"></i></a>
         </div>
       </div>
     </div>
@@ -16,7 +16,7 @@
    <DivisorBlackSection title="GO TO OUR FORUM "/>
     <LastJumbotron />
     <NewsletterSection/>
-    <div class="container d-flex justify-content-around offset-1 col-9 my-5">
+    <div class="container d-flex justify-content-center offset-1 col-9 my-5">
       <BaseMessageFooter/>
       <BaseFooter class="col-3" v-for="(link,i) in FooterListItems" :key="i" :footerList="link" />
     </div>

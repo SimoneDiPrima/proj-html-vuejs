@@ -30,7 +30,7 @@ img{
     background-position: center;
 }
 .BackGray{
-  background-color: #4A4A4A;
+  background-color: $Charcocal;
 }
     
 </style>

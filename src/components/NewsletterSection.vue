@@ -18,11 +18,11 @@ export default{
 <style lang="scss" scoped>
 @import '../assets/scss/style.scss';
 .bgGray{
-    background-color: #aeaeae;
+    background-color:$silver_Caliche;
 }
 .blackButton{
-    background-color: #1a1b1b;
-    color:white;
+    background-color:$Shark;
+    color:$color_White;
     width:150px;
 }
 </style>

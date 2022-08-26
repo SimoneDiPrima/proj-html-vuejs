@@ -9,8 +9,6 @@
 <script>
 export default{
     name:'DivisorBlackSection',
-    data(){
-    },
     props:{
         title:String
     }
@@ -26,7 +24,7 @@ export default{
     line-height:100px;
 }
 .iconF{
-    color:white;
+    color:$color_White;
 }
     
 </style>

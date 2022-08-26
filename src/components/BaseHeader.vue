@@ -5,7 +5,7 @@
                 <div class="mt-3">
                     <ul class="lh-70">
                         <li>
-                            <a :href="headerMenu.url" class="d-flex" :class="{ current : headerMenu.current }">{{headerMenu.text}}</a>
+                            <a :href="headerMenu.url" class="d-flex text-capitalize" :class="{ current : headerMenu.current }">{{headerMenu.text}}</a>
                         </li>
                     </ul>
                 </div>
@@ -38,11 +38,13 @@ li a{
     text-decoration: none;
   &.current,
   &:hover{
-    text-decoration: underline orange ;
-    color:white;
+    content:'f708';
+    text-decoration:underline 70px orange ;
+    color:$color_White;
+    
   }
 }
 .BackGray{
-  background-color: #4A4A4A;
+  background-color: $Charcocal;
 }
 </style>

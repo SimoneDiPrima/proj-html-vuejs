@@ -1,7 +1,7 @@
 <template>
 <div>
   <section class="bigImage">
-    <img class="mw-100 position-relative" src="../assets/avadaImages/home_slider_bg.jpg" alt="">
+    <img class="mw-100 position-relative" src="../assets/avadaImages/home_slider_bg.jpg" alt="Home Slider">
     <div class="container position-absolute top-50 start-50 translate-middle text-start text-white">
       <h1 class="h1 titleBig fw-bold">Tech Forum!</h1>
       <p>Discuss all the latest technology news and trends</p>
@@ -22,24 +22,24 @@
   <section id="card">
     <div class="container">
       <div class="row d-flex justify-content-center">
-        <figure class="col-3">
-          <img src="../assets/avadaImages/post_feat_img_24-320x202.jpg" alt="">
+        <a href="#" class="col-3">
+          <img src="../assets/avadaImages/post_feat_img_24-320x202.jpg" alt="Paragraph Article">
           <h5>Morbi vitae dui euismud voluptate sollicitudin</h5>
           <span class="colorParagraphText calendar">October 11th,2015 | Comment off</span>
           <p class="colorParagraphText">Lorem ipsum dolor uam sequi quia, totam ipsum vero blanditiis accusantium sunt eligendi fugit. Quam inventore ab accusantium aliquid facilis temporibus!</p>
-        </figure>
-        <figure class="col-3">
-          <img src="../assets/avadaImages/post_feat_img_25-320x202.jpg" alt="">
+        </a>
+        <a href="#" class="col-3">
+          <img src="../assets/avadaImages/post_feat_img_25-320x202.jpg" alt="Paragraph Article">
           <h5>Morbi vitae dui euismud voluptate sollicitudin</h5>
           <span class="colorParagraphText calendar">October 11th,2015 | Comment off</span>
           <p class="colorParagraphText">Lorem ipsum dolor uam sequi quia, totam ipsum vero blanditiis accusantium sunt eligendi fugit. Quam inventore ab accusantium aliquid facilis temporibus!</p>
-        </figure>
-        <figure class="col-3">
-          <img src="../assets/avadaImages/post_feat_img_23-320x202.jpg" alt="">
+        </a>
+        <a href="#" class="col-3">
+          <img src="../assets/avadaImages/post_feat_img_23-320x202.jpg" alt="Paragraph Article">
           <h5>Morbi vitae dui euismud voluptate sollicitudin</h5>
           <span class="colorParagraphText calendar">October 11th,2015 | Comment off</span>
           <p class="colorParagraphText">Lorem ipsum dolor uam sequi quia, totam ipsum vero blanditiis accusantium sunt eligendi fugit. Quam inventore ab accusantium aliquid facilis temporibus!</p>
-        </figure>
+        </a>
       </div>
       <div class="d-flex  justify-content-center my-3">
         <figure class="col-9 position-relative">
@@ -57,25 +57,25 @@
       </div>
       
       <div class="row d-flex justify-content-center">
-        <figure class="col-3">
-          <img src="../assets/avadaImages/post_feat_img_22-320x202.jpg" alt="">
+        <a href="#" class="col-3">
+          <img src="../assets/avadaImages/post_feat_img_22-320x202.jpg" alt="Paragraph Article">
           <h5>Morbi vitae dui euismud voluptate sollicitudin</h5>
           <span class="colorParagraphText calendar">October 11th,2015 | Comment off</span>
           <p class="colorParagraphText">Lorem ipsum dolor uam sequi quia, totam ipsum vero blanditiis accusantium sunt eligendi fugit. Quam inventore ab accusantium aliquid facilis temporibus!</p>
-        </figure>
-        <figure class="col-3">
-          <img src="../assets/avadaImages/post_feat_img_21-320x202.jpg" alt="">
+        </a>
+        <a href="#" class="col-3">
+          <img src="../assets/avadaImages/post_feat_img_21-320x202.jpg" alt="Paragraph Article">
           <h5>Morbi vitae dui euismud voluptate sollicitudin</h5>
           <span class="colorParagraphText calendar">October 11th,2015 | Comment off</span>
           <p class="colorParagraphText">Lorem ipsum dolor uam sequi quia, totam ipsum vero blanditiis accusantium sunt eligendi fugit. Quam inventore ab accusantium aliquid facilis temporibus!</p>
-        </figure>
-        <figure class="col-3">
-          <img src="../assets/avadaImages/post_feat_img_20-320x202.jpg" alt="">
+        </a>
+        <a href="#" class="col-3">
+          <img src="../assets/avadaImages/post_feat_img_20-320x202.jpg" alt="Paragraph Article">
           <h5>Morbi vitae dui euismud voluptate sollicitudin</h5>
           <span class="colorParagraphText calendar">October 11th,2015 | Comment off</span>
           <p class="colorParagraphText">Lorem ipsum dolor uam sequi quia,lorem totam ipsum vero blanditiis accusantium sunt eligendi fugit. 
             Quam inventore ab accusantium aliquid facilis temporibus!</p>
-        </figure>
+        </a>
       </div>
       
     </div>
@@ -85,7 +85,7 @@
     <div class="container my-5 d-flex justify-content-center">
         <div class="col-9 d-flex">
           <figure class="col-7 position-relative">
-              <img src="../assets/avadaImages/featured_article_2_bg.jpg" alt="">
+              <img src="../assets/avadaImages/featured_article_2_bg.jpg" alt="Product Slider">
               <div class="container position-absolute top-0 start-0 mt-5 text-white">
                 <h6 class="letterSpace mt-3 mb-2">REVIEWED PRODUCT</h6>
                 <h4 class="mb-2 fw-bold fs-3">Mauris viverra atisan ipsum eget felis prims efficitur varius</h4>
@@ -101,7 +101,7 @@
           </div>
           <div>
               <a class="d-flex p-1" href="#">
-                <img class="col-4"  src="../assets/avadaImages/post_feat_img_23-147x118.jpg" alt="">
+                <img class="col-4"  src="../assets/avadaImages/post_feat_img_23-147x118.jpg" alt="Article Post">
                 <div class="ms-4">
                   <h6 class="fw-bolder">Donec ornare pretium eget scelisque justo</h6>
                   <span class="colorParagraphText calendar">October 11th,2015 | Comment off</span>
@@ -111,7 +111,7 @@
           </div>
           <div>
                   <a class="d-flex p-1" href="#">
-                    <img class="col-4" src="../assets/avadaImages/post_feat_img_22-147x118.jpg" alt="">
+                    <img class="col-4" src="../assets/avadaImages/post_feat_img_22-147x118.jpg" alt="Article Post">
                     <div class="ms-4">
                       <h6 class="fw-bolder">Fusce solicitudin nunc sed placerat varius</h6>
                       <span class="colorParagraphText calendar">October 11th,2015 | Comment off</span>
@@ -120,7 +120,7 @@
           </div>
           <div>
                   <a class="d-flex p-1" href="#">
-                    <img class="col-4" src="../assets/avadaImages/post_feat_img_20-147x118.jpg" alt="">
+                    <img class="col-4" src="../assets/avadaImages/post_feat_img_20-147x118.jpg" alt="Article Post">
                     <div class="ms-4">
                         <h6 class="fw-bolder">Proin eu purus sed aru aliquet curabir vens</h6>
                         <p class="colorParagraphText calendar">October 11th,2015 | Comment off</p>
@@ -151,18 +151,16 @@ export default{
   text-align:left;
 }
 .bigImage{
-  background-color:white;
+  background-color:$color_White;
 }
 .smallImage{
     flex-basis: 25%;
 }
-button{
-  border:none;
-}
+
 .BackGray{
-  background-color:#4A4A4A;
+  background-color:$Charcocal;
 }
-.wid-50{
+.w-50{
   width:50%;
   
 }
@@ -177,7 +175,8 @@ img{
 }
   hr{width:20%;
   text-align: center;
-  color:#fc8c5e}
+  color:$salmon;
+  }
   .w-60{max-width:60%;}
   .w-90{
     width:90%;
@@ -188,8 +187,11 @@ img{
   .calendar{
     font-size:12px;
   }
-  .smallTitle{font-size:12px;}
-  a{text-decoration:none;
+  .smallTitle{
+    font-size:12px;
+    }
+  a{cursor:pointer;
+    text-decoration:none;
   color:black;
   &:hover{
     color:goldenrod;
